@@ -8,7 +8,70 @@ It is a set of practices that an organization adopts to ensure collaboration,com
 So now that you know the meaning of devops what is the main goal?  
 
 The main goal of Devops 
-The main goal of devops is to ensure that both the development and operations team can work together to automate and streamline the process of building, testing and deploying a software. 
+The main goal of devops is to ensure that both the development and operations 
+team can work together to automate and streamline the process of building, testing and deploying a software. 
 Devops bridges the gap between development team and operation team and ensure that both teams can work together, 
-basically devops aims to shorten the software development lifecycle while still also delivering features and updates regularly. 
+basically devops aims to shorten the software development lifecycle while still also delivering features and updates regularly.
+
+Phases involved in Devops Lifecycle 
+There are a lot of phases in devops and there are also a lot of tools used for each phase. 
+In this section you are going to learn about the phases involved in devops and the tools used for each phase. 
+
+Planning: This is the first phase  in devops and In this phase the Devops team gathers the requirements needed for the development of the software. 
+This phase involves the Devops team defining and describing the ability of the software they intend on building. 
+The devops team also maps out the processes which are going to be used to get the required result. 
+Once planning is done then the team can start writing the code. The vision of the project is usually defined during this phase.
+
+Develop: This is the next step after the planning phase has been successful. 
+This phase is usually the second phase and In this phase, the developer writes the code needed for the development of the software. 
+There are usually multiple developers writing the code for the software and each one of them works 
+together to ensure the smooth and efficient development of software.Tools used in this phase includes Git, Github, Jira e.t.c.
+In this phase, DevOps teams do the following tasks:
+They choose the development environment they want to use. 
+They also chose the language they want to use to build the software.
+Write, review and design the software.
+
+Build: This phase comes right after the develop phase and in this, the team compiles and assembles the source code into executable units, 
+units that can be released into a production environment.The build phase can sometimes be merged with the develop phase for a faster 
+workflow and to also avoid too much stress but it is good to know that (both phases are two different phases) 
+they aren't the same phase the build phase is totally different from the develop phase. Tools used in this phase includes: Jenkins, CircleCl,Gitlab e.t.c. 
+
+Test: This comes after the development team has built the software. 
+This phase involves the team testing out the software in order to see if it meets the requirement that was mapped out in the planning phase. 
+This phase is a critical phase in devops because it helps the team to validate the performance and functionality of the software that was built. 
+The team checks if the software is working fine and if there are any errors that need to be rectified. 
+In this phase the developed software is continuously tested for bugs and error.  Tools used in this phase includes: Selenium, test NJ, J unit e.t.c 
+
+Deploy: In this phase, the software built is released to a production environment for end users to use it. 
+This phase is usually done via continuous delivery (CD) (so that the software built can be readily released easily and quickly) 
+so that any changes made to the software by the devops team can be released to the production environment in an automated manner. 
+The team automates delivery so as to make the software scalable and readily available, this way the software can be delivered frequently with ease. 
+Tools used in this phase includes infrastructure as code (IaC), containers, Puppet, chef, Saltstack, Ansible e.t.c. 
+
+Monitor: This phase is a very crucial  phase in devops which is aimed at improving the quality of the software developed 
+by monitoring its performance This phase involves observation and continuous feedback. 
+This phase helps the devops team quickly identify and solve issues so as to avoid downtime that affects customers.
+During this phase, the devops team collects, and analyzes data from the already released software to see if the software 
+is working as intended and generates reports to improve it if there is any issue. Tools used in this phase includes: ELT Stack, Splunk, Nagios e.t.c
+
+Devops Tools 
+There are various tools used in devops that help increase the efficiency of DevOps processes, 
+and these tools are chosen based on what the devops team wants to build and based on how comfortable they are with each tool. Devops tools includes:
+Git: Git is an open source version control tool used to track changes in a project. 
+Git is used to ensure that various developers can work separately on the software being built without affecting the other. 
+This tool helps members of the team to collaborate on projects and update existing ones.For more information on Git check   
+Docker: Docker is used for containerizing applications—the process of turning an application into a single package of software.
+Jenkins: Jenkins is a tool used to build CI/CD pipelines, where developers can build, test, and deploy software.
+Kubernetes: A container organizer, Kubernetes is used frequently in DevOps.
+Other tools includes: Saltstack, Chef, Puppet, Splunk e.t.c  
+Each tool mentioned above has its special functionality and phases they are used in.
+
+Conclusion
+DevOps is an increasingly popular methodology that aims to connect developers and operators together, 
+It's uniquely differentiated from traditional IT operations. 
+With everything that devops entails it can be overwhelming at first With all the various practices and solutions available. 
+While adopting DevOps practices, automates and optimizes processes through technology, 
+it all starts with the culture inside the organization and the people who play a part in it. 
+The teams bring DevOps to life by implementing certain practices throughout the application lifecycle. 
+Some of these practices help accelerate, automate, and improve a specific phase. 
 
